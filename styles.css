@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 650px)
+#features {
+    margin-top: 0;
+}
+
+@media (max-width: 800px)
+.product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#nav-bar {
+position: fixed;
+width: 100%;
+background-color: teal;
+}
+
+#header-img {    
+    max-width:75px;
+}
+
+.nav-link {
+    float: right;
+    height: 100%;
+    margin-right: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: linen;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: orange;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+#heading-text {
+    display: block;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#heading-text h1 {
+    padding-bottom: 10px;
+    font-family: "Satisfy", sans-serif;
+
+}
+
+#heading-text p {
+    padding-bottom: 20px;
+}
+
+#email-submit {
+    display: block;
+    text-align: center;
+}
+
+form .btn {
+    background-color: teal;
+    color: linen;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+form .btn:hover {
+    background-color: orange;
+    cursor:pointer;
+}
+
+#email {
+    width: 200px;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+}
+
+#features .icon {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    margin: 25px 25px 25px 100px;
+}
+
+img {
+    border-radius: 20px;
+}
+ #features .desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+ }
+
+#how-it-works {
+    padding: 75px 0 75px 0;
+}
+
+ iframe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+#how-it-works p {
+    text-align: center;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+}
+
+.package {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.gsb {
+    background-color: lightgray;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.package ul {
+    list-style: none;
+    line-height: 2.0;
+}
+
+button {
+    background-color: teal;
+    color: linen;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    padding: 10px;
+}
+
+footer p {
+    padding: 10px;
+}
